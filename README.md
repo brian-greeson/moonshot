@@ -10,11 +10,11 @@ An iOS app built with SwiftUI that explores NASA's Apollo missions. Browse missi
 - **Local data**: Decodes `missions.json` and `astronauts.json` from the app bundle with a typed model layer.
 
 ### Screenshots
-
+<p>
 <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-14%20at%2011.42.51.png" height="500" />
 <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-14%20at%2011.48.55.png" height="500" />
 <img src="screenshots/Simulator%20Screenshot%20-%20iPhone%2016%20Pro%20-%202025-08-14%20at%2011.49.01.png" height="500" />
-
+</p>
 ### Tech stack
 
 - **Swift** 5
@@ -43,21 +43,9 @@ An iOS app built with SwiftUI that explores NASA's Apollo missions. Browse missi
 2. Select an iOS simulator (or a device running iOS 18.5+).
 3. Build and run.
 
-### Testing
-
-- Unit and UI test targets are configured (`moonshotTests`, `moonshotUITests`). From Xcode, choose a test scheme and press `Cmd+U`.
-
 ### Data
 
 - Missions and astronauts are bundled JSON. Dates in `missions.json` use `yyyy-MM-dd` and are decoded with a custom `DateFormatter`.
 - Images are local in `Assets.xcassets/Images` and mapped by mission/astronaut `id`.
 
-### Roadmap
 
-- **Astronaut detail view**: Tapping a crew member currently navigates to a placeholder.
-- **Search and filters**: Filter by year or crew.
-- **Accessibility**: Audit labels, contrast, Dynamic Type.
-
-### License
-
-Choose a license and add it here (e.g., MIT). If omitted, all rights reserved by default.
